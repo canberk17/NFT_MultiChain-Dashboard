@@ -1,0 +1,94 @@
+body {
+  background-image: url("background.jpg");
+  color: #000426;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 80px;
+}
+
+script {
+  padding: 40px;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  color: #ff4c8b;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  color: #000426;
+  background-color: #f2f2f2;
+  padding: 16px;
+  margin: 0px;
+}
+
+h3 {
+  font-size: 16px;
+  font-family: "Titillium Web", sans-serif;
+  color: #ffffff;
+}
+
+#replit_content {
+  background-color: #000426;
+  padding: 40px;
+  text-align: right;
+}
+
+th {
+  background-color: #000426;
+  font-size: 20px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  border: 0px;
+}
+
+td {
+  background-color: #2d2d2d;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  border: 0px;
+}
+
+ul {
+  background-color: #2d2d2d;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  border: 0px;
+}
+
+input {
+  background-color: #000426;
+  color: #ffffff;
+  border: 0px;
+  padding: 8px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+}
+
+select {
+  background-color: #000426;
+  color: #ffffff;
+  border: 0px;
+  padding: 8px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+}
+btn-primary {
+  background-color: #ff4c8b;
+  color: #ffffff;
+  border: 0px;
+  padding: 8px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+}

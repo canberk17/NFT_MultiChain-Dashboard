@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>NFT Wallet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>NFT Wallet Dashboard</h1>
+    <h4>Powered by: <img src="https://www.covalenthq.com/static/images/covalent-logo.png" alt="Covalent Logo" style="width:7%;height:7%;"></h4>
+    <br>
+
+    <h2>Select Network: </h2>
+    <select class="input_field" name="chain" id="chain">
+      <option value="1"> Ethereum Mainnet </option>
+      <option value="250">Fantom-Opera Mainnet</option>
+      <option value="56">BSC Mainnet</option>
+      <option value="43114">Avalanche Mainnet</option>
+      <option value="137">Polygon Mainnet</option>
+     
+    </select>
+    <br><br>
+
+    Enter wallet address or ENS: <input type="text" id="address" value="demo.eth">
+    <button onclick="getData()">Get NFT Balances</button>
+    <br>
+    <h3>Metadata</h3>
+    <ul id="metadata"></ul>
+    <h3 id="total"></h3>
+    <br>
+    <table id="tokenTable" class="table table-striped">
+        <thead>
+            <tr>
+                <th></th>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Link</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <div id="spinner"></div> 
+        </tbody>
+    </table>
+    <script src="nft.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  </body>
+</html>
