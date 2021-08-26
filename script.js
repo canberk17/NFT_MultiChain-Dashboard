@@ -1,6 +1,7 @@
 // Set your API key here
 const APIKEY = 'ckey_4dab9858382a4ce49155d5bfbc2';
 
+
 function getData() {
     // Get key HTML elements and reset table content
     const ul = document.getElementById('metadata');
